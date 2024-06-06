@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            div
+            {
+                border: 3px solid green;
+                padding: 5px;
+            }
+            .img1
+            {
+               float:right;
+            }
+            .clearfix::after{
+                content: none;
+                clear:both;
+                display:table;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>without clearfix</h1>
+        <div class="clearfix">
+            <img src="grapes.webp" alt=""  width="170" height="170">
+        </div>
+    </body>
+</html>
